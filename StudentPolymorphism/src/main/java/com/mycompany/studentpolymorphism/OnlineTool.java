@@ -9,9 +9,13 @@ package com.mycompany.studentpolymorphism;
  * @author 30128198
  */
 public class OnlineTool {
-    String name;
+    private String name;
     
     public OnlineTool(String name) {
         this.name = name;
+    }
+    
+    public String getName() {
+        return name;
     }
 }
