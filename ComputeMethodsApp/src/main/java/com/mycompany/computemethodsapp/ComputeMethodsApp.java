@@ -34,6 +34,7 @@ public class ComputeMethodsApp {
         System.out.println("Hypotenuse of the triangle is " + hypotenuse);
         
         dieRoll = ComputeMethods.roll();
-        System.out.println("The sum of two dice values is: " + dieRoll);
+        System.out.println("The sum of two dice roll values is: " + dieRoll);
+        sc.close();
     }
 }
