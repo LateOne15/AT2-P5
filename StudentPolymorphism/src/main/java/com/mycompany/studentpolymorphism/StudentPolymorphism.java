@@ -38,8 +38,8 @@ public class StudentPolymorphism {
         ((InternationalStudent)polyStu).setCountry("India");
         ((InternationalStudent)polyStu).setVisaPeriod(3);
         
-        ((InternationalStudent)polyStu).tellInfo();
-        ((InternationalStudent)polyStu).attendClass();
+        polyStu.tellInfo();
+        polyStu.attendClass();
         ((InternationalStudent)polyStu).takeLeave();
         System.out.println("");
         
@@ -47,8 +47,8 @@ public class StudentPolymorphism {
         ((OnlineStudent)polyStu).setTool("Blackboard");
         ((OnlineStudent)polyStu).setStudyPeriod(4);
         
-        ((OnlineStudent)polyStu).tellInfo();
-        ((OnlineStudent)polyStu).attendClass();
+        polyStu.tellInfo();
+        polyStu.attendClass();
         ((OnlineStudent)polyStu).onlineClass();
     }
 }
